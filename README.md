@@ -1,41 +1,18 @@
 # Weather App
 
-A Flutter-based weather application that provides real-time weather updates for any location. The app uses an API to fetch weather data and displays it in a user-friendly interface.
-
-## Features
-
-- 🌦 **Real-time Weather Updates**: Get current weather information such as temperature, humidity, wind speed, and weather conditions.
-- 🔍 **Search by City**: Search for weather details of any city worldwide.
-- 🌡 **Temperature Units**: Supports both Celsius and Fahrenheit.
-- 🌎 **Dynamic UI**: Changes UI dynamically based on weather conditions.
-- 📍 **Location Services**: Uses GPS to fetch the user's current location automatically.
-- 🎨 **Modern UI/UX**: Designed with a smooth and intuitive user experience.
-
-## Project Structure
-
-```
-lib/
-├── models/
-│   ├── weather_model.dart
-├── providers/
-│   ├── weather_provider.dart
-├── screens/
-│   ├── home_page.dart
-│   ├── search_page.dart
-│   ├── describe_weather.dart
-├── services/
-│   ├── weather_service.dart
-├── main.dart
-```
+A new Flutter project for displaying weather updates.
 
 ## Getting Started
 
-### Prerequisites
+This project is a starting point for a Flutter application.
 
-- Flutter SDK
-- Dart SDK
+### Features
+- Real-time weather updates
+- Search functionality for different locations
+- Detailed weather descriptions
+- Responsive UI for different devices
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```sh
@@ -49,24 +26,37 @@ lib/
    ```sh
    flutter pub get
    ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-### Running the App
+## Directory Structure
 
-To run the application, use the following command:
-```sh
-flutter run
+```
+lib/
+├── modules/
+│   ├── models.dart
+├── providers/
+│   ├── weatherProvider.dart
+├── screens/
+│   ├── HomePage.dart
+│   ├── SearchPage.dart
+│   ├── DescribeWeather.dart
+├── services/
+│   ├── Service.dart
+├── main.dart
 ```
 
-## Contributions
+## Download APK
 
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
+You can download the APK files from the following link:
+[Download APKs](https://drive.google.com/drive/folders/1O6bwDWD5rqDHTzWNHCbdi6FX307Y0I04?usp=sharing)
+
+## Resources
+- [Flutter Documentation](https://flutter.dev/docs)
+- [Useful Flutter Samples](https://flutter.dev/docs/cookbook)
 
 ## License
-
 This project is licensed under the MIT License.
-
-## Acknowledgements
-
-- [Flutter](https://flutter.dev/)
-- [OpenWeather API](https://openweathermap.org/api)
 
